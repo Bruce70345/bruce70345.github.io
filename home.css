@@ -1,0 +1,1084 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:root {
+    --main-color: #f29803;
+    --dark-gray: #2f2f2f;
+    --gray: #404040;
+    --light-gray: #646464;
+    --light-yellow: #FBF480;
+}
+
+
+input[type="text"] {
+    height: unset;
+    border: none;
+}
+
+input[type="email"] {
+    height: unset;
+    border: none;
+}
+
+#our_profession {
+    margin-top: unset;
+    margin-bottom: unset;
+    font-weight: 700;
+}
+
+
+/*Nav Bar*/
+.nav_brand_left {
+    width: 22%;
+}
+
+.nav_brand_right {
+    margin-left: 2vw;
+}
+
+.nav_brand_right_img {
+    width: 38vw;
+    cursor: pointer;
+}
+
+.nav-bar-button:focus {
+    box-shadow: none !important;
+}
+
+.nav_free_img {
+    width: 25vw
+}
+
+.navbar-toggler-icon {
+    width: 8vw !important;
+    height: 8vw !important;
+}
+
+.nav-link.active {
+    font-size: 5vw;
+}
+
+.nav-item {
+    font-weight: 500;
+    letter-spacing: 0.2vw;
+}
+
+/*P1*/
+#float_line_icon {
+    position: fixed;
+    z-index: 10;
+    right: 4vw;
+    bottom: 35vw;
+    width: 17vw;
+}
+
+.home_p1_background {
+    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev1_m.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home_p1_div {
+    padding-top: 9.5%;
+    padding-bottom: 70%;
+    margin-top: 15% !important;
+}
+
+.worry_ecommerce {
+    font-size: 4.4vw;
+    color: var(--gray);
+    letter-spacing: 0.3vw;
+    white-space: nowrap;
+    font-weight: 900;
+}
+
+.trust_us {
+    width: 97%;
+    margin-top: 1%;
+}
+
+.over_15years {
+    font-size: 3.8vw;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    color: var(--gray);
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.free_consultant {
+    cursor: pointer;
+    margin-top: 4%;
+    width: 42vw;
+}
+
+
+/*P2*/
+.home_p2_background {
+    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev2_m.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home_p2_div {
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+
+#p2_main {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home_p2_div_forImage {
+    padding-top: 103%;
+}
+
+.powerful_cooperatation {
+    font-size: 4.7vw;
+    color: var(--main-color);
+    font-weight: 400;
+    letter-spacing: 0.3vw;
+    white-space: nowrap;
+}
+
+.global_ecommerce_expert {
+    font-size: 7vw;
+    color: var(--main-color);
+    letter-spacing: 0.8vw;
+    white-space: nowrap;
+    margin-top: 1vw;
+    font-weight: 700;
+}
+
+.color {
+    color: var(--light-yellow)
+}
+
+.mark_houng {
+    font-size: 7.7vw;
+    white-space: nowrap;
+    letter-spacing: 1.1vw;
+    font-weight: 900;
+}
+
+.mark_features {
+    font-size: 3.5vw;
+    list-style-type: none;
+    letter-spacing: 0.4vw;
+    line-height: 150%;
+    margin-top: 1%;
+    margin-bottom: 0;
+    padding-left: 0;
+    white-space: nowrap;
+    list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+    margin-left: 4vw;
+}
+
+.gamehours_Divider {
+    margin-top: 3%;
+}
+
+.gamehours {
+    font-size: 3.5vw;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.gamehours_features {
+    font-size: 3.5vw;
+    list-style-type: none;
+    letter-spacing: 0.4vw;
+    line-height: 5vw;
+    margin-bottom: 0 !important;
+    padding-left: 0;
+}
+
+.first_line {
+    padding: 1% 0;
+}
+
+.gamehours_border {
+    border-color: var(--main-color);
+    border-width: 1px;
+    opacity: 100%;
+}
+
+.gamehours_features_border {
+    border-width: 1px;
+    border-top: 0.5vw dotted rgba(146, 145, 145, 0.3);
+    padding: 1% 0;
+}
+
+.p2.free_consultant {
+    margin-top: 9%;
+}
+
+/*P3*/
+.home_p3_background {
+    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev3_m.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.home_p3_div {
+    padding-top: 9%;
+    padding-bottom: 7%;
+}
+
+.home_p3_div_forImage {
+    margin-top: 84%;
+}
+
+.col-1.p3_side {
+    width: 5%
+}
+
+.col-10.p3_main {
+    width: 90%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.oversea_income_growing {
+    color: var(--main-color);
+    letter-spacing: 0.2vw;
+    font-size: 5vw;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.tons_of_money {
+    font-size: 7.5vw;
+    letter-spacing: 1vw;
+    white-space: nowrap;
+    margin-top: 0.5%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.jump_on_global_train {
+    font-size: 3.8vw;
+    margin-top: 1%;
+    font-weight: 200;
+}
+
+#our_profession {
+    font-size: 3.7vw;
+    letter-spacing: 0.2vw;
+    margin-top: 5%;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.how_we_pro_features {
+    font-size: 3.2vw;
+    list-style-type: none;
+    line-height: 5vw;
+    margin-top: 3%;
+    font-weight: 200;
+    white-space: nowrap;
+    letter-spacing: 0.25vw;
+    list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+    margin-left: 4vw;
+}
+
+.p3.free_consultant {
+    margin-top: 7%;
+}
+
+
+
+/*p4*/
+.home_p4_background {
+    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev4_m.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 103.1%;
+}
+
+#p4_slogan_div {
+    margin-top: 11%;
+}
+
+#success_from_today {
+    color: white;
+    text-shadow: var(--dark-gray) 0.2vw -0.1vw 0.6vw;
+    font-size: 8vw;
+    font-weight: 800;
+    letter-spacing: 1.1vw;
+}
+
+#let_pro_lead {
+    color: var(--main-color);
+    font-size: 5vw;
+    margin-bottom: 0;
+    margin-top: -1%;
+}
+
+#form {
+    padding: 0;
+}
+
+#form_div {
+    margin-top: 112%;
+}
+
+#name_title_div {
+    height: 6.5vw;
+}
+
+::placeholder {
+    font-size: 3vw;
+    padding-left: 3%;
+    color: var(--light-gray);
+}
+
+#name {
+    width: 60%;
+    height: 6.5vw;
+    box-shadow: 0 0 6px 2px #e4e4e4 inset;
+}
+
+#mr_mrs_div {
+    width: 35%;
+}
+
+div>label {
+    font-size: 3.3vw;
+    color: var(--dark-gray);
+    font-weight: 900;
+}
+
+
+input[type="radio"] {
+    width: 3vw;
+    height: 3vw;
+    appearance: none;
+    border-radius: 50%;
+    outline: none;
+    border: 0.7vw solid #fff;
+    background-color: #fff;
+    transition: all 0.15s ease-in-out;
+    align-self: center;
+}
+
+input[type="radio"]:checked {
+    border-color: white;
+    background-color: var(--light-gray);
+}
+
+
+#email {
+    height: 6.5vw;
+    margin-top: 2.5%;
+    box-shadow: 0 0 6px 2px #e4e4e4 inset;
+}
+
+#phone {
+    height: 6.5vw;
+    margin-top: 2.7%;
+    box-shadow: 0 0 6px 2px #e4e4e4 inset;
+}
+
+#privacy_policy_SV>a {
+    font-size: 3vw;
+    color: white;
+    text-decoration: none;
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.p4.free_consultant {
+    margin-top: 18.5%;
+    margin-bottom: 8.5%;
+}
+
+.p4.free_consultant>button {
+    border: none;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.p4.free_consultant>button>img {
+    width: 42vw;
+}
+
+
+/*Footer*/
+#footer_div {
+    width: 100%;
+    justify-content: center;
+}
+
+.footer_logo {
+    width: 40vw;
+}
+
+#logo_div {
+    padding: 7% 0;
+}
+
+#follow_icons {
+    padding-right: 0;
+}
+
+.follow_us {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+
+.contact_us {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.footer_social_media_icons {
+    margin-top: 1.5vw;
+}
+
+.footer_social_media_icons>a>img {
+    width: 6vw;
+}
+
+#contact_info {
+    font-weight: 300;
+    color: var(--dark-gray);
+    letter-spacing: 0.2vw;
+    border-right: 0.01rem solid var(--dark-gray);
+}
+
+#contact_info>div>p {
+    margin-bottom: 0%;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+
+#phone_info {
+    margin-top: 1.5vw;
+}
+
+.footer_div_height {
+    height: 12vw;
+}
+
+#company_info {
+    font-weight: 300;
+    color: var(--dark-gray);
+    white-space: nowrap;
+    letter-spacing: 0.2vw;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    font-size: 2.5vw;
+}
+
+
+
+@media(min-width:768px) {
+    .pc.col-md-2-5 {
+        width: 22%;
+    }
+
+
+    /*Nav Bar*/
+    .container-fluid {
+        margin-right: 5vw !important;
+    }
+
+    .nav_brand_left {
+        /* width:8vw; */
+        height: 5vw;
+    }
+
+    .nav_brand_right_img {
+        width: 15vw;
+    }
+
+    .nav-link.active {
+        font-size: 1.2vw;
+        margin-right: 3vw;
+    }
+
+    .nav-link.active::after {
+        content: "";
+        background: url(https://statics.myclickfunnels.com/image/1349951/file/0d5ecbebf17936001fd25ebd981f03d0.png) no-repeat;
+        background-size: 6vw;
+        margin-left: -0.5%;
+        width: 6%;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.3s;
+        height: 1vw;
+        display: block;
+    }
+
+    .nav-link.active:hover::after {
+        opacity: 1;
+    }
+
+    .nav_free_img {
+        width: 8vw;
+    }
+
+    /*P1*/
+    #float_line_icon {
+        position: fixed;
+        z-index: 15;
+        right: 3vw;
+        bottom: 2vw;
+        width: 5vw;
+    }
+
+    .home_p1_background {
+        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev1-1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .home_p1_div {
+        padding-top: 8%;
+        padding-bottom: 7.5%;
+        margin-top: 5% !important;
+    }
+
+    #p1_content {
+        margin-left: -2%;
+    }
+
+    .worry_ecommerce {
+        font-size: 1.85vw;
+        color: var(--gray);
+        letter-spacing: 0.2vw;
+    }
+
+    .trust_us {
+        width: 101%;
+    }
+
+    .over_15years {
+        font-size: 1.3vw;
+        margin-top: 5%;
+        color: var(--dark-gray);
+        margin-bottom: 1%;
+        letter-spacing: 0.13vw;
+    }
+
+    .free_consultant {
+        width: 15vw;
+    }
+
+
+    .p1.free_consultant {
+        margin-top: unset;
+        margin-left: 4vw;
+    }
+
+    #p1_consultant {
+        margin-top: 13%;
+        margin-left: -10%;
+    }
+
+    /*P2*/
+    .home_p2_background {
+        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .home_p2_div {
+        padding-top: 3%;
+        padding-bottom: 4%;
+        padding-left: 7.5%;
+    }
+
+    .home_p2_div_forImage {
+        padding-top: 0%;
+    }
+
+    .powerful_cooperatation {
+        font-size: 1.2vw;
+        color: var(--main-color);
+        letter-spacing: 0.15vw;
+        font-weight: 700;
+    }
+
+    .global_ecommerce_expert {
+        font-size: 2vw;
+        color: var(--main-color);
+        letter-spacing: 0.2vw;
+        margin-top: 0vw;
+    }
+
+    .mark_houng {
+        font-size: 4vw;
+        letter-spacing: 0.6vw;
+    }
+
+    .mark_features {
+        font-size: 1vw;
+        list-style-type: none;
+        letter-spacing: 0.1vw;
+        line-height: 160%;
+        border-left: 0.2vw solid var(--main-color);
+        padding-left: 2%;
+        margin-left: 0;
+        list-style-image: none;
+    }
+
+    .gamehours {
+        font-size: 1.3vw;
+        color: var(--main-color);
+    }
+
+    .gamehours_features {
+        font-size: 1vw;
+        list-style-type: none;
+        letter-spacing: 0.1vw;
+        line-height: 160%;
+        border-left: 0.2vw solid var(--main-color);
+        padding-left: 2%;
+        margin-top: 1.5%
+    }
+
+    .gamehours_border {
+        display: none;
+    }
+
+    .first_line {
+        padding: 0;
+    }
+
+    .gamehours_features_border {
+        border-top: none;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        padding: 0;
+    }
+
+    .p2.free_consultant {
+        margin-top: unset;
+        margin-left: unset;
+    }
+
+    #p2_consultant {
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+
+    /*P3*/
+    .home_p3_background {
+        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .col-1.p3_side {
+        width: calc(100%/12);
+    }
+
+    .col-10.p3_main {
+        width: calc(100%/12*5)
+    }
+
+    .home_p3_div {
+        padding-top: 5%;
+        padding-bottom: 7.5%;
+        padding-left: 2vw;
+    }
+
+    .home_p3_div_forImage {
+        padding-top: 0%;
+    }
+
+    .oversea_income_growing {
+        color: var(--main-color);
+        letter-spacing: 0.3vw;
+        font-size: 1.8vw;
+    }
+
+    .tons_of_money {
+        font-size: 3.6vw;
+        letter-spacing: 0.3vw;
+        margin-bottom: 0.3vw;
+        justify-content: start;
+
+    }
+
+    .jump_on_global_train {
+        margin: 0;
+        white-space: nowrap;
+        letter-spacing: 0.15vw;
+        margin-top: 2%;
+    }
+
+    .jump_on_global_train_mb_1 {
+        font-size: 1.2vw;
+        background-color: var(--main-color);
+        color: white;
+        display: inline-block;
+        margin: 0;
+        padding-left: 0.5%;
+    }
+
+    .jump_on_global_train_mb_2 {
+        font-size: 1.2vw;
+        background-color: white;
+        color: var(--main-color);
+        display: inline-block;
+        border: 0.5px solid var(--main-color);
+        margin: 0;
+        padding-right: 0.5%;
+    }
+
+    #our_profession {
+        font-size: 1.25vw;
+        letter-spacing: 0.1vw;
+        justify-content: start;
+        margin-top: 7%;
+    }
+
+    .how_we_pro_features {
+        font-size: 1.1vw;
+        list-style-type: none;
+        line-height: 130%;
+        letter-spacing: 0vw;
+        padding-top: 1.5%;
+        list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+        margin-left: 3.5%;
+    }
+
+
+    .p3.free_consultant {
+        margin-top: unset;
+        margin-left: unset;
+    }
+
+    #p3_consultant {
+        margin-top: 7%;
+        margin-left: -9%;
+    }
+
+    /*p4*/
+    .home_p4_background {
+        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev4.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100.98%;
+    }
+
+    #p4_div_for_pc {
+        padding-bottom: 1.1%;
+    }
+
+    #p4_slogan_div {
+        margin-top: 14%;
+    }
+
+    #success_from_today {
+        font-size: 3.6vw;
+        margin-top: -2%;
+        font-weight: 700;
+        letter-spacing: 0.1vw;
+        white-space: nowrap;
+    }
+
+    #let_pro_lead {
+        font-size: 2vw;
+        letter-spacing: 0.1vw;
+        font-weight: 700;
+    }
+
+    #form_div {
+        margin-top: 17%;
+    }
+
+    #name_title_div {
+        height: 1.7vw;
+    }
+
+    input[type="radio"] {
+        border: 0.25vw solid #fff;
+        width: 1vw;
+        height: 1vw;
+    }
+
+    #mr {
+        margin-right: 5%;
+    }
+
+    form input[type="text"] {
+        border: none;
+    }
+
+    form input[type="email"] {
+        border: none;
+    }
+
+    ::placeholder {
+        font-size: 1vw;
+    }
+
+
+    #name {
+        width: 55%;
+        height: unset;
+    }
+
+    #mr_mrs_div {
+        width: 40%;
+    }
+
+    div>label {
+        font-size: 0.9vw;
+    }
+
+    #email {
+        height: 1.7vw;
+        margin-top: 2.6%;
+    }
+
+    #phone {
+        height: 1.7vw;
+        margin-top: 2.5%;
+    }
+
+    #privacy_policy_SV>a {
+        font-size: 1vw;
+        color: black;
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+
+    .p4.free_consultant {
+        margin-top: 13%;
+    }
+
+    .p4.free_consultant>button {
+        border: none;
+        border-radius: 0.5vw;
+    }
+
+    .p4.free_consultant>button>img {
+        width: 15vw;
+    }
+
+
+    /*footer*/
+    .footer_logo {
+        width: 15vw;
+    }
+
+    #footer_div {
+        margin-top: 0%;
+    }
+
+    #logo_div {
+        padding: 0;
+    }
+
+    #contact_info {
+        font-weight: 300;
+        color: var(--dark-gray);
+        letter-spacing: 0.1vw;
+        display: flex;
+        flex-direction: column;
+        border-left: 0.01rem solid var(--dark-gray);
+    }
+
+    #contact_info>div>p {
+        margin-bottom: 0.5%;
+        font-size: 0.9vw;
+        letter-spacing: 0.2vw;
+    }
+
+    .follow_us {
+        font-size: 0.9vw;
+        margin-top: 0%;
+    }
+
+    .contact_us {
+        font-size: 0.9vw;
+        margin-bottom: 0;
+        font-weight: 700;
+    }
+
+    #phone_info {
+        margin-top: 0.5vw;
+    }
+
+    .footer_social_media_icons>a>img {
+        width: 2.5vw;
+    }
+
+    .footer_social_media_icons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+    }
+
+    .follow_us {
+        text-align: left;
+    }
+
+
+    .footer_social_media_icons>a {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .footer_div_height {
+        height: 5vw;
+    }
+
+    #company_info {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.9vw;
+        letter-spacing: 0.2vw;
+    }
+
+
+
+}
