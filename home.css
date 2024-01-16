@@ -207,7 +207,7 @@ input[type="email"] {
 }
 
 .home_p1_background {
-    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev1_m.jpg);
+    background: url(./pic/ev1_m.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -249,7 +249,7 @@ input[type="email"] {
 
 /*P2*/
 .home_p2_background {
-    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev2_m.jpg);
+    background: url(./pic/ev2_m.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -305,7 +305,7 @@ input[type="email"] {
     margin-bottom: 0;
     padding-left: 0;
     white-space: nowrap;
-    list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+    list-style-image: url(./pic/row_m_01.png);
     margin-left: 4vw;
 }
 
@@ -350,7 +350,7 @@ input[type="email"] {
 
 /*P3*/
 .home_p3_background {
-    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev3_m.jpg);
+    background: url(./pic/ev3_m.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -416,7 +416,7 @@ input[type="email"] {
     font-weight: 200;
     white-space: nowrap;
     letter-spacing: 0.25vw;
-    list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+    list-style-image: url(./pic/row_m_01.png);
     margin-left: 4vw;
 }
 
@@ -428,7 +428,7 @@ input[type="email"] {
 
 /*p4*/
 .home_p4_background {
-    background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev4_m.jpg);
+    background: url(./pic/ev4_m.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 103.1%;
@@ -671,7 +671,7 @@ input[type="radio"]:checked {
     }
 
     .home_p1_background {
-        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev1-1.jpg);
+        background: url(./pic/ev1-1.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -721,7 +721,7 @@ input[type="radio"]:checked {
 
     /*P2*/
     .home_p2_background {
-        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev2.jpg);
+        background: url(./pic/ev2.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -808,7 +808,7 @@ input[type="radio"]:checked {
 
     /*P3*/
     .home_p3_background {
-        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev3.jpg);
+        background: url(./pic/ev3.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -884,7 +884,7 @@ input[type="radio"]:checked {
         line-height: 130%;
         letter-spacing: 0vw;
         padding-top: 1.5%;
-        list-style-image: url(http://192.168.150.140/wordpress/wp-content/uploads/row_m_01.png);
+        list-style-image: url(./pic/row_m_01.png);
         margin-left: 3.5%;
     }
 
@@ -901,7 +901,7 @@ input[type="radio"]:checked {
 
     /*p4*/
     .home_p4_background {
-        background: url(http://192.168.150.140/wordpress/wp-content/uploads/ev4.jpg);
+        background: url(./pic/ev4.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
         width: 100.98%;
