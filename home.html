@@ -6,7 +6,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="./pic/image_processing20230926-1-1fx0p81.png"
+      href="./pic/image_processing20230926-1-1fx0p81-150x150-1.png"
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -230,7 +230,11 @@
           <div
             class="d-flex justify-content-center align-items-center free_consultant p4"
           >
-            <button form="form" type="submit">
+            <button
+              form="form"
+              type="submit"
+              onclick="sendWebhookRequest(event)"
+            >
               <img src="./pic/free_wh_m.png" alt="" />
             </button>
           </div>
@@ -302,6 +306,7 @@
       </p>
     </footer>
 
+    <script src="https://unpkg.com/whatwg-fetch@3.13.1/dist/fetch.umd.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -312,5 +317,43 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function sendWebhookRequest(event) {
+        event.preventDefault();
+
+        var webhookUrl =
+          "https://hooks.zapier.com/hooks/catch/16577319/3gtct16/";
+
+        var formData = {
+          "name": document.getElementById("name").value,
+          "radio": document.querySelector('input[name="title"]:checked').id,
+          "email": document.getElementById("email").value,
+          "phone": document.getElementById("phone").value,
+        };
+
+        // 使用 try-catch 捕獲異常
+        try {
+          fetch(webhookUrl, {
+            method: "POST",
+            body: JSON.stringify(formData),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Network response was not ok");
+              }
+              return response.json();
+            })
+            .then((responseData) => {
+              console.log("Webhook request sent successfully:", responseData);
+            })
+            .catch((error) => {
+              console.error("Error sending webhook request:", error);
+            });
+        } catch (error) {
+          console.error("Caught an exception:", error);
+        }
+      }
+    </script>
   </body>
 </html>
